@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-19T12:52:34.441Z",
+  "buttons": [
+    {
+      "bg": "rgb(239, 68, 68)",
+      "text": "Thoát"
+    },
+    {
+      "bg": "rgb(249, 115, 22)",
+      "text": "Áp dụng"
+    },
+    {
+      "bg": "rgb(22, 163, 74)",
+      "text": "Xác Nhận Thanh Toán"
+    }
+  ],
+  "h1": 0,
+  "inputs": [
+    {
+      "disabled": false,
+      "readOnly": false,
+      "type": "number",
+      "value": "30000000"
+    },
+    {
+      "disabled": false,
+      "readOnly": false,
+      "type": "text",
+      "value": ""
+    }
+  ],
+  "labels": [
+    "Tổng tiền thanh toán (VND):",
+    "Mã Giảm Giá"
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "EShop"
+    },
+    {
+      "href": "/cart",
+      "text": "Giỏ hàng"
+    },
+    {
+      "href": "/profile",
+      "text": "Chào, Nguyen Van A"
+    }
+  ],
+  "url": "http://127.0.0.1:5173/checkout"
+}
