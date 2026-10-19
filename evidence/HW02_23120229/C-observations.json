@@ -1,0 +1,473 @@
+[
+  {
+    "id": "C-TC-001",
+    "at": "2026-10-19T12:59:51.529Z",
+    "code": "HWC191258_P01",
+    "row": "HWC191258_P01\tPhần trăm\t1%\t0 ₫\t\t1 lần\tXóa",
+    "evidence": "C-TC-001-created.jpg"
+  },
+  {
+    "id": "C-TC-002",
+    "at": "2026-10-19T13:00:53.550Z",
+    "code": "HWC191258_F01",
+    "row": "HWC191258_F01\tCố định\t10 ₫\t1 ₫\t2099-12-31\t2 lần\tXóa",
+    "evidence": "C-TC-002-created.jpg",
+    "note": "Initial date fill did not populate native date; corrected via actual keyboard to2099-12-31, verified DOM valid before successful submission."
+  },
+  {
+    "id": "C-TC-001",
+    "at": "2026-10-19T13:01:27.559Z",
+    "code": "HWC191258_P02",
+    "row": "HWC191258_P02\tPhần trăm\t1%\t0 ₫\t2099-12-31\t1 lần\tXóa",
+    "evidence": "C-TC-001-retest-created.jpg",
+    "note": "New exact-fresh alias P02; native date typed and verified; initial P01 attempt excluded from final verdict due date entry ambiguity."
+  },
+  {
+    "id": "C-TC-003",
+    "at": "2026-10-19T13:02:09.651Z",
+    "before": [
+      {
+        "missing": true,
+        "type": "text",
+        "underflow": false,
+        "valid": false,
+        "value": ""
+      },
+      {
+        "missing": false,
+        "type": "number",
+        "underflow": false,
+        "valid": true,
+        "value": "1"
+      },
+      {
+        "missing": false,
+        "type": "number",
+        "underflow": false,
+        "valid": true,
+        "value": "0"
+      },
+      {
+        "missing": true,
+        "type": "date",
+        "underflow": false,
+        "valid": false,
+        "value": ""
+      },
+      {
+        "missing": false,
+        "type": "number",
+        "underflow": false,
+        "valid": true,
+        "value": "1"
+      }
+    ],
+    "after": {
+      "codeRows": [],
+      "invalid": [
+        {
+          "missing": true,
+          "placeholder": "Mã coupon (VD: SAVE10)",
+          "type": "text"
+        },
+        {
+          "missing": true,
+          "placeholder": "Ngày hết hạn",
+          "type": "date"
+        }
+      ]
+    },
+    "evidence": "C-TC-003-initial-date-incomplete.jpg"
+  },
+  {
+    "id": "C-TC-005",
+    "at": "2026-10-19T13:02:10.784Z",
+    "before": [
+      {
+        "missing": false,
+        "type": "text",
+        "underflow": false,
+        "valid": true,
+        "value": "HWC191258_I05"
+      },
+      {
+        "missing": true,
+        "type": "number",
+        "underflow": false,
+        "valid": false,
+        "value": ""
+      },
+      {
+        "missing": false,
+        "type": "number",
+        "underflow": false,
+        "valid": true,
+        "value": "0"
+      },
+      {
+        "missing": true,
+        "type": "date",
+        "underflow": false,
+        "valid": false,
+        "value": ""
+      },
+      {
+        "missing": false,
+        "type": "number",
+        "underflow": false,
+        "valid": true,
+        "value": "1"
+      }
+    ],
+    "after": {
+      "codeRows": [],
+      "invalid": [
+        {
+          "missing": true,
+          "placeholder": "Giá trị % (VD: 10)",
+          "type": "number"
+        },
+        {
+          "missing": true,
+          "placeholder": "Ngày hết hạn",
+          "type": "date"
+        }
+      ]
+    },
+    "evidence": "C-TC-005-initial-date-incomplete.jpg"
+  },
+  {
+    "id": "C-TC-006",
+    "at": "2026-10-19T13:02:11.284Z",
+    "before": [
+      {
+        "missing": false,
+        "type": "text",
+        "underflow": false,
+        "valid": true,
+        "value": "HWC191258_I06"
+      },
+      {
+        "missing": false,
+        "type": "number",
+        "underflow": false,
+        "valid": true,
+        "value": "1"
+      },
+      {
+        "missing": false,
+        "type": "number",
+        "underflow": false,
+        "valid": true,
+        "value": "0"
+      },
+      {
+        "missing": true,
+        "type": "date",
+        "underflow": false,
+        "valid": false,
+        "value": ""
+      },
+      {
+        "missing": false,
+        "type": "number",
+        "underflow": false,
+        "valid": true,
+        "value": "1"
+      }
+    ],
+    "after": {
+      "codeRows": [],
+      "invalid": [
+        {
+          "missing": true,
+          "placeholder": "Ngày hết hạn",
+          "type": "date"
+        }
+      ]
+    },
+    "evidence": "C-TC-006-native-required.jpg"
+  },
+  {
+    "id": "C-TC-003",
+    "at": "2026-10-19T13:03:23.024Z",
+    "before": [
+      {
+        "missing": true,
+        "valid": false,
+        "value": ""
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": "1"
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": "0"
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": "2099-12-31"
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": "1"
+      }
+    ],
+    "evidence": "C-TC-003-native-required.jpg",
+    "note": "Retest with date verified2099-12-31; only target missing"
+  },
+  {
+    "id": "C-TC-005",
+    "at": "2026-10-19T13:03:24.524Z",
+    "before": [
+      {
+        "missing": false,
+        "valid": true,
+        "value": "HWC191258_I05"
+      },
+      {
+        "missing": true,
+        "valid": false,
+        "value": ""
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": "0"
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": "2099-12-31"
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": "1"
+      }
+    ],
+    "evidence": "C-TC-005-native-required.jpg",
+    "note": "Retest with date verified2099-12-31; only target missing"
+  },
+  {
+    "id": "C-TC-011",
+    "at": "2026-10-19T13:03:48.708Z",
+    "code": "HWC191258_I11",
+    "before": [
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "HWC191258_I11"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "-1"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "0"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "2099-12-31"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "1"
+      }
+    ],
+    "rowCount": 1,
+    "evidence": "C-TC-011-numeric.jpg"
+  },
+  {
+    "id": "C-TC-012",
+    "at": "2026-10-19T13:03:50.259Z",
+    "code": "HWC191258_I12",
+    "before": [
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "HWC191258_I12"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "0"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "0"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "2099-12-31"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "1"
+      }
+    ],
+    "rowCount": 1,
+    "evidence": "C-TC-012-numeric.jpg"
+  },
+  {
+    "id": "C-TC-013",
+    "at": "2026-10-19T13:03:51.808Z",
+    "code": "HWC191258_I13",
+    "before": [
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "HWC191258_I13"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "1"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "-1"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "2099-12-31"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "1"
+      }
+    ],
+    "rowCount": 1,
+    "evidence": "C-TC-013-numeric.jpg"
+  },
+  {
+    "id": "C-TC-014",
+    "at": "2026-10-19T13:03:53.392Z",
+    "code": "HWC191258_I14",
+    "before": [
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "HWC191258_I14"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "1"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "0"
+      },
+      {
+        "underflow": false,
+        "valid": true,
+        "value": "2099-12-31"
+      },
+      {
+        "underflow": true,
+        "valid": false,
+        "value": "0"
+      }
+    ],
+    "rowCount": 0,
+    "evidence": "C-TC-014-numeric.jpg"
+  },
+  {
+    "id": "C-TC-007",
+    "at": "2026-10-19T13:04:03.341Z",
+    "code": "HWC191258_I07",
+    "before": [
+      {
+        "missing": false,
+        "valid": true,
+        "value": "HWC191258_I07"
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": "1"
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": ""
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": "2099-12-31"
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": "1"
+      }
+    ],
+    "rows": [
+      "HWC191258_I07Phần trăm1% ₫2099-12-311 lầnXóa"
+    ],
+    "evidence": "C-TC-007-blank-default.jpg"
+  },
+  {
+    "id": "C-TC-008",
+    "at": "2026-10-19T13:04:04.915Z",
+    "code": "HWC191258_I08",
+    "before": [
+      {
+        "missing": false,
+        "valid": true,
+        "value": "HWC191258_I08"
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": "1"
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": "0"
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": "2099-12-31"
+      },
+      {
+        "missing": false,
+        "valid": true,
+        "value": ""
+      }
+    ],
+    "rows": [
+      "HWC191258_I08Phần trăm1%0 ₫2099-12-311 lầnXóa"
+    ],
+    "evidence": "C-TC-008-blank-default.jpg"
+  },
+  {
+    "id": "C-TC-009",
+    "at": "2026-10-19T13:04:24.281Z",
+    "code": "HWC191258_P02",
+    "dialog_type": "alert",
+    "rowCount": 1,
+    "evidence": "C-TC-009-duplicate.jpg"
+  }
+]
