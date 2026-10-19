@@ -1,0 +1,86 @@
+{
+  "at": "2026-10-19T12:58:40.346Z",
+  "buttons": [
+    {
+      "bg": "rgb(249, 115, 22)",
+      "text": "Tạo mã"
+    },
+    {
+      "bg": "rgb(239, 68, 68)",
+      "text": "Xóa"
+    },
+    {
+      "bg": "rgb(239, 68, 68)",
+      "text": "Xóa"
+    },
+    {
+      "bg": "rgb(239, 68, 68)",
+      "text": "Xóa"
+    },
+    {
+      "bg": "rgb(239, 68, 68)",
+      "text": "Xóa"
+    }
+  ],
+  "h1": [
+    "EShop Admin"
+  ],
+  "inputs": [
+    {
+      "min": "",
+      "placeholder": "Mã coupon (VD: SAVE10)",
+      "required": true,
+      "step": "",
+      "type": "text",
+      "value": ""
+    },
+    {
+      "min": "",
+      "placeholder": "Giá trị % (VD: 10)",
+      "required": true,
+      "step": "",
+      "type": "number",
+      "value": ""
+    },
+    {
+      "min": "",
+      "placeholder": "Đơn tối thiểu (₫)",
+      "required": false,
+      "step": "",
+      "type": "number",
+      "value": "0"
+    },
+    {
+      "min": "",
+      "placeholder": "Ngày hết hạn",
+      "required": true,
+      "step": "",
+      "type": "date",
+      "value": ""
+    },
+    {
+      "min": "1",
+      "placeholder": "Số lần dùng tối đa/người",
+      "required": false,
+      "step": "",
+      "type": "number",
+      "value": "1"
+    }
+  ],
+  "labels": [],
+  "selects": [
+    {
+      "options": [
+        {
+          "text": "Phần trăm (%)",
+          "value": "percent"
+        },
+        {
+          "text": "Số tiền cố định (₫)",
+          "value": "fixed"
+        }
+      ],
+      "required": false
+    }
+  ]
+}
