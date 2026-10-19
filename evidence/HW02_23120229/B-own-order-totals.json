@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-19T12:57:32.514141+00:00",
+  "scope": "bounded own fixture user only; isolated database",
+  "orders": [
+    {
+      "id": 1,
+      "total": 30000000
+    },
+    {
+      "id": 2,
+      "total": 88000000
+    },
+    {
+      "id": 3,
+      "total": 1
+    },
+    {
+      "id": 4,
+      "total": 900000000
+    }
+  ]
+}
